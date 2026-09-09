@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<title>work8 6/9 11 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+	box-sizing:border-box;
+}
+.butterbear{
+	width:1024px; 
+	margin:0 auto;
+	box-shadow:0px 5px 10px 0px rgba(0,0,0,.4);
+	background:pink;
+}
+header{
+	background-image:url(images/header.jpg);
+	height:200px;
 
+}
+nav{
+	float:left;
+	width:25%;
+	background-color:Lavender;
+	height:auto;
+
+}
+article{
+	float:left;
+	width:75%;
+	background-color:Thistle;
+	height:auto;
+	padding-left:20px;
+
+}
+section::after{
+	content:"";
+	display:table;
+	clear:both;
+
+
+}
+footer{
+	background-color:Plum ;
+	padding:30px;
+	text-align:center;
+}
+a:link{
+	color:white; 
+	text-decoration:none;
+	background-color:Violet ;
+	padding:10px 25px;
+	display:inline-block;
+	width:100%;
+	text-align:left;
+}
+a:hover{
+	color:red;
+	background-color: yellow;
+	
+}
+a:active{color:skyblue;}
+a:visite{color:black;}
+
+ul{
+	list-style-type:none;
+	magin:0px;
+	padding:0px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="butterbear">
+<header>
+</header>
+<section>
+<nav>
+<ul> 
+<li><a href="index.html">วิวัฒนาการของดนตรีสากล</a></li>
+<li><a href="p2.html">ยุคกลาง</a></li>
+<li><a href="p3.html">ยุคฟื้นฟูศิลปวิทยาการ</a></li>
+<li><a href="p4.html">ยุคบาโรก</a></li>
+<li><a href="p5.html">ยุคคลาสสิก</a></li>
+</ul>
+</nav>
+<article>
+<h2 >วิวัฒนาการของดนตรีสากล</h2>
+<img src="images/p1.jpg"width="400">
+<p>คำอธิบาย:วิวัฒนาการดนตรีแบ่งออกเป็นยุคสมัยสำคัญ ๆ ทั้งดนตรีสากลและดนตรีไทย โดยดนตรีสากลเริ่มจากดนตรีสมัยกรีก โรม สมัยกลาง รีเนซองส์ บาโรก คลาสสิก โรแมนติก และศตวรรษที่ 20 ซึ่งมีการพัฒนาทั้งรูปแบบเครื่องดนตรี การประพันธ์เพลง และการใช้เทคนิคทางดนตรีต่าง ๆ ส่วนดนตรีไทยมีพัฒนาการตั้งแต่สมัยสุโขทัย ศรีอยุธยา มาจนถึงรัตนโกสินทร์ โดยมีการปรับปรุงเครื่องดนตรี การเพิ่มเครื่องดนตรีในวงปี่พาทย์และวงมโหรี จนเกิดเป็นวงดนตรีที่มีความซับซ้อนมากขึ้น</p>
+</article>
+</section>
+<footer>
+&copy;นายชัยนันท์ ผมหอม ม.6/9เลขที่2
+</footer>
+
+</body>
+</html>
